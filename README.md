@@ -1,6 +1,6 @@
 [![Docker Build Status](https://img.shields.io/docker/build/chai2010/plantuml.svg)](https://hub.docker.com/r/chai2010/plantuml/)
 
-# docker_plantuml
+# plantuml on docker
 
 Docker Container for [PlantUML](http://plantuml.com)
 
@@ -12,11 +12,11 @@ This docker container does this for you. And allows you to pipe by default into 
 ## Usage
 
 ```
-cat test.uml | docker run --rm -i think/plantuml > test.svg
+cat test.uml | docker run --rm -i chai2010/plantuml > test.png
 ```
 
-The default will output svg. If png output is wanted, call it like this:
+The default will output png. If svg output is wanted, call it like this:
 
 ```
-cat test.uml | docker run --rm -i think/plantuml -tpng > test.png
+cat test.uml | docker run --rm -i chai2010/plantuml -tsvg > test.svg
 ```
