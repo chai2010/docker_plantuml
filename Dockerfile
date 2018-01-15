@@ -13,4 +13,4 @@ ENV LANG en_US.UTF-8
 
 ENTRYPOINT ["java", "-Djava.awt.headless=true", "-jar", "plantuml.jar", "-p", "-charset", "utf-8"]
 
-CMD ["-tpng"]
+CMD ["-tsvg"]

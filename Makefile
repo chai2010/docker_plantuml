@@ -3,6 +3,7 @@
 # that can be found in the LICENSE file.
 
 default:
-	cat test.uml | docker run --rm -i chai2010/plantuml > test.png
+	cat test.uml | docker run --rm -i chai2010/plantuml -Tsvg > test.svg
+	cat test.uml | docker run --rm -i chai2010/plantuml -Tpng > test.png
 
 clean:
