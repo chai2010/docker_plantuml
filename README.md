@@ -1,6 +1,4 @@
-[![](https://badge.imagelayers.io/think/plantuml.svg)](https://imagelayers.io/?images=think/plantuml:latest 'think/plantuml')
-[![Docker pulls](https://img.shields.io/docker/pulls/think/plantuml.svg)](https://hub.docker.com/r/think/plantuml/)
-[![Latest Tag](https://img.shields.io/github/tag/lindt/docker_plantuml.svg)](https://hub.docker.com/r/think/plantuml/)
+[![Docker Build Status](https://img.shields.io/docker/build/chai2010/plantuml.svg)](https://hub.docker.com/r/chai2010/plantuml/)
 
 # docker_plantuml
 
