@@ -1,6 +1,6 @@
 FROM frolvlad/alpine-oraclejdk8
 
-MAINTAINER think@hotmail.de
+LABEL maintainer="chaishushan@gmil.com"
 
 ENV PLANTUML_VERSION=1.2018.0
 
@@ -13,4 +13,4 @@ ENV LANG en_US.UTF-8
 
 ENTRYPOINT ["java", "-Djava.awt.headless=true", "-jar", "plantuml.jar", "-p"]
 
-CMD ["-tsvg"]
+CMD ["-tpng"]
